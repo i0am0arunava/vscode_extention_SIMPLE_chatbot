@@ -35,9 +35,7 @@ EngiBot comes pre-configured with default settings. However, you can customize i
 
 Contributions are welcome! If you have any suggestions, ideas, or bug fixes, feel free to open an issue or submit a pull request on the [GitHub repository](https://github.com/your-engibot-repo).
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
