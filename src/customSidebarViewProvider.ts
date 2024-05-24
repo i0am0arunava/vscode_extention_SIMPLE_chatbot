@@ -54,26 +54,40 @@ export class CustomSidebarViewProvider implements vscode.WebviewViewProvider {
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src ${webview.cspSource}; style-src ${webview.cspSource}; script-src 'nonce-${nonce}';">
-      <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
-      <link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;700&display=swap" rel="stylesheet">
-      <link href="${styleResetUri}" rel="stylesheet">
-      <link href="${styleVSCodeUri}" rel="stylesheet">
+      
       <link href="${stylesheetUri}" rel="stylesheet">
     </head>
     <body>
-      <section class="wrapper">
-        <div class="container">
-          <div class="top-banner">Welcome to Chat AI</div>
-          <img src="${robotGifUri}" alt="Your GIF" style="width: 100%; max-width: 100%;">
-          <div class="content">
-            <h2 class="subtitle">Chat AI</h2>
-            <div id="chatLog" class="chat-log"></div>
-            <input type="text" id="userInput" placeholder="Type your message here">
-            <button id="sendButton">Send</button>
+    <div id="maincont">
+       <div id="upbox">
+          <div id="item-1">
+          Welcome, Start Your Convo!
+          
           </div>
-        </div>
-      </section>
+        
+         
+        
+        
+          <div id="item-2">
+            <div >
+               <img src="${robotGifUri}" alt="Your GIF" >
+            </div>
+            <div id="ask">
+                  ........... < Ask me anything />
+                  <p class="me"><i>Made by Arunava Pari</i></p>
+            </div>
+          </div>
+        
+       </div>
+      
+       <div id="chat-box">
+      
+       </div>
+    </div>
+    <div id="cont">
+    <input type="text" id="user-input" placeholder="Type your message here">
+    <button id="send-button">Send</button>
+    </div>
       <script nonce="${nonce}" src="${scriptUri}"></script>
     </body>
     </html>

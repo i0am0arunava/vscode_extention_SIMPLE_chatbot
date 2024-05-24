@@ -1,8 +1,7 @@
-
 {
-  "name": "snippetspeak-c",
-  "displayName": "SnippetSpeak",
-  "description": "make a convo with this bot",
+  "name": "askmeanything",
+  "displayName": "Ask-To-Me",
+  "description": "Start your conversation with this bot",
   "version": "1.0.0",
   "publisher": "arunavapari",
   "repository": {
