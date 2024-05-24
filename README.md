@@ -28,17 +28,18 @@ this is a VSCode extension that brings AI-powered chat capabilities directly int
 EngiBot comes pre-configured with default settings. However, you can customize its behavior by modifying the settings in your VSCode preferences.
 
 ## Screenshots
+![dd](https://github.com/i0am0arunava/vscode_extention_SIMPLE_chatbot/assets/141677292/148dc6bb-7d89-4344-b9fd-cb60206daf3b)
 
-![Screenshot 1](screenshots/screenshot1.png)
-![Screenshot 2](screenshots/screenshot2.png)
+![eeeee](https://github.com/i0am0arunava/vscode_extention_SIMPLE_chatbot/assets/141677292/7476bc99-a1d4-4d55-9e05-15d924faba2c)
+
+![ee](https://github.com/i0am0arunava/vscode_extention_SIMPLE_chatbot/assets/141677292/6438346d-2d84-4f55-97fb-1b3bbd2e67d4)
+
+
 
 ## Contributing
 
 Contributions are welcome! If you have any suggestions, ideas, or bug fixes, feel free to open an issue or submit a pull request on the [GitHub repository](https://github.com/your-engibot-repo).
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+.
 
 ## Acknowledgements
 
@@ -49,6 +50,5 @@ EngiBot was made possible thanks to the following open-source projects and libra
 - [VSCode API](https://code.visualstudio.com/api)
 - [Your Favorite AI/Chatbot Framework]
 
-## Contact
-
-For any inquiries or feedback, please contact [Your Name] at [your@email.com].
+## installation 
+ live link here --> [live](https://marketplace.visualstudio.com/items?itemName=arunavapari.askmeanything)
