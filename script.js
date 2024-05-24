@@ -2,7 +2,7 @@
 import Groq from 'groq-sdk';
 
 // Instantiate the Groq client with the API key
-const groq = new Groq({ apiKey: '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', dangerouslyAllowBrowser: true });
+const groq = new Groq({ apiKey: 'your api key', dangerouslyAllowBrowser: true });
 
 document.addEventListener('DOMContentLoaded', () => {
   const chatBox = document.getElementById('chat-box');
